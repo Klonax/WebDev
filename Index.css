@@ -1,14 +1,35 @@
-body {
-    background: #939393;
-    background: linear-gradient(#6b6969, #1f1b31);
-    border-radius: 6px;
-    height: 580px;
-  }
+:root{
+    --gradient: linear-gradient(
+        45deg,
+        #5e5831,
+        #0a2442,
+        #0e1925
+    );
+}
 
-  h1{
+body{
+    background: #ddd;
+    background-image: var(--gradient);
+    background-size: 400%;
+}
+
+h1{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+    text-align: center;
     color: white;
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    align-items: center;
-    justify-content: center;
+}
+
+p{
+    margin: 0;
+    padding:30px;
+    box-sizing: border-box;
+    text-align:center;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 4px;
 }
