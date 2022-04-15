@@ -1,0 +1,14 @@
+body {
+    background: #939393;
+    background: linear-gradient(#6b6969, #1f1b31);
+    border-radius: 6px;
+    height: 580px;
+  }
+
+  h1{
+    color: white;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
