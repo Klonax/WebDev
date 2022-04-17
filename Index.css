@@ -16,8 +16,8 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
-    background-color: #24252a;
+    padding: 20px 10%;
+    background-color: #4b4c52;
   }
 
 
@@ -41,15 +41,6 @@ p{
     color: white;
     margin-bottom: 4px;
 }  
-  
-
-.container{
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    padding-left: 120px;
-    padding-right: 120px;
-}
 
 nav {
   order: 1;

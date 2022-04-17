@@ -11,4 +11,72 @@ body{
     height: 100%;
     background-color: #0e171f;
  }
- 
+
+ header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #4b4c52;
+  }
+
+ .Placeholder {
+    column-count: 3; 
+    columns: 100px 3;
+    column-gap: 100px;
+    column-rule-style: solid;
+    column-rule-width: 10px;
+    column-rule-color: gold;
+  }
+
+.PlaceholderText{
+    column-count: 1; 
+    columns: 100px 3;
+    column-gap: 20px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: gold;
+    color: white;
+    font-size:12px;
+}
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  nav {
+    order: 1;
+  }
+  
+  .nav__links a,
+  .overlay__content a {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li:nth-child(1) {
+    padding: 0 20px 0 0;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color:gold;
+  }
+  
